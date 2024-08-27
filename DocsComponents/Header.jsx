@@ -13,7 +13,7 @@ export default function Header() {
                     <Menu.Button className="jump-button">Jump</Menu.Button>
                     <Menu.Dropdown>
                         {sections.map(section => (
-                            <Menu.Item key={section}>{<a href="#">section</a>}</Menu.Item>
+                            <Menu.Item key={section}>{<a href="#">{section}</a>}</Menu.Item>
                         ))}
                     </Menu.Dropdown>
                 </Menu>
