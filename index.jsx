@@ -7,7 +7,7 @@ import Buttons from "./DocsComponents/Buttons"
 import Cards from "./DocsComponents/Cards"
 import TestimonialWithImage from "./DocsComponents/TestimonialWithImage"
 import TestimonialWithLogo from "./DocsComponents/TestimonialWithLogo"
-import Menus from "./DocsComponents/Menu"
+import Menus from "./DocsComponents/Menus"
 import Footer from "./DocsComponents/Footer"
 
 
