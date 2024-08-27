@@ -25,7 +25,7 @@ export default function Banners() {
             </div>
             <h3>Syntax</h3>
             <div className="syntax">
-              <p><code>{`import Banner from "./components/Banner/index"`}</code></p>
+              <p><code>{`import Banner from "../components/Banner/index"`}</code></p>
               <p><code>{`<Banner variant="primary">`}</code></p>
               <p><code>{`<Banner.Title>Primary</Banner.Title>`}</code></p>
               <p><code>{`<Banner.Content>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</Banner.Content>`}</code></p>

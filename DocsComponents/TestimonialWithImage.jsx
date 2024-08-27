@@ -15,7 +15,7 @@ export default function TestimonialWithImage() {
             </div>
             <h3>Syntax</h3>
             <div className="syntax">
-                <p><code>{`import TestimonialWithImg from "./components/TestimonialWithImg/index"`}</code></p>
+                <p><code>{`import TestimonialWithImg from "../components/TestimonialWithImg/index"`}</code></p>
                 <p><code>{`<TestimonialWithImg imgSrc="mayAndersons">`}</code></p>
                 <p><code>{`<TestimonialWithImg.Quote>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. 

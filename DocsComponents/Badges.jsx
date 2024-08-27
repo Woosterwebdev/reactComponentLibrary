@@ -27,7 +27,7 @@ export default function Badges() {
             </div>
             <h3>Syntax</h3>
             <div className="syntax">
-              <p><code>{`import Badge from "./components/Badge/Badge"`}</code></p>
+              <p><code>{`import Badge from "../components/Badge/Badge"`}</code></p>
               <p><code>{`<Badge style="pill" variant="success">Success</Badge>`}</code></p>
             </div>
         </section>
