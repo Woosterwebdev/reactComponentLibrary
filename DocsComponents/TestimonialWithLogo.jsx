@@ -15,7 +15,7 @@ export default function TestimonialWithLogo() {
             </div>
             <h3>Syntax</h3>
             <div className="syntax">
-                <p><code>{`import Testimonial from "../components/Testimonial/index"`}</code></p>
+                <p><code>{`import Testimonial from "./components/Testimonial/index"`}</code></p>
                 <p><code>{`<Testimonial logo="logo" altText="Company Logo.">`}</code></p>
                 <p><code>{`<Testimonial.Quote>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. 

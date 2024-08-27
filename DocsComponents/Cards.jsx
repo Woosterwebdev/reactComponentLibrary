@@ -24,7 +24,7 @@ export default function Cards() {
             </div>
             <h3>Syntax</h3>
             <div className="syntax">
-              <p><code>{`import Card from "../components/Card/index"`}</code></p>
+              <p><code>{`import Card from "./components/Card/index"`}</code></p>
               <p><code>{`<Card>`}</code></p>
               <p><code>{`<Card.Icon cardIcon="cloudUpload" altText="Cloud Upload Icon." />`}</code></p>
               <p><code>{`<Card.Title>Easy Deployment</Card.Title>`}</code></p>

@@ -20,7 +20,7 @@ export default function Buttons() {
             </div>
             <h3>Syntax</h3>
             <div className="syntax">
-                <p><code>{`import Button from "../components/Button/Button"`}</code></p>
+                <p><code>{`import Button from "./components/Button/Button"`}</code></p>
                 <p><code>{`<Button size="lg" className="success">Log in with Google</Button>`}</code></p>
             </div>
         </section>

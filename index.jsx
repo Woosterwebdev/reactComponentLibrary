@@ -15,18 +15,17 @@ import Footer from "./DocsComponents/Footer"
 function App() {
   return (
     <>
-      <Header />
-      <Badges />
-      <Banners />
-      <Buttons />
-      <Cards />
-      <TestimonialWithImage />
-      <TestimonialWithLogo />
-      <Menus />
-      <Footer />
+    <Header />
+    <Badges />
+    <Banners />
+    <Buttons />
+    <Cards />
+    <TestimonialWithImage />
+    <TestimonialWithLogo />
+    <Menus />
+    <Footer />
     </>
   )
 }
       
 ReactDOM.createRoot(document.getElementById('root')).render(<App />);
-

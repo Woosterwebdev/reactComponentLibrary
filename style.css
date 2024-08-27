@@ -13,15 +13,14 @@ body {
 /*-------------*/
 
 section {
+    margin: 0 auto;
     max-width: 1000px;
-    /* margin: 0 auto; */
     padding: 0 15px;
 }
 
 h3 {
     font-weight: 400;
 }
-
 
 .m-0 {
     margin: 0;
@@ -35,16 +34,28 @@ h3 {
 
 .header {
     display: flex;
-    justify-content: center;
     align-items: center;
     background: #C9C9C9;
-    height: 40px;
+    height: 60px;
     gap: 10px;
     box-shadow: 0px 1px 2px #A1A1A1;
+    padding: 10px;
+}
+
+.jump-button {
+    width: fit-content;
+    margin-left: auto;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.skip-menu img {
+    margin: 0;
 }
 
 .title {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .header img {
@@ -61,12 +72,14 @@ h3 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .buttons-variants {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 footer {
@@ -153,7 +166,7 @@ button.button-danger {
 
 .menu-dropdown {
     position: absolute;
-    left: 0;
+    right: 0;
     margin-top: 3px;
     border: 1px solid gray;
     border-radius: 6px;
@@ -367,7 +380,7 @@ banner-content-primary {
 
 .testimonial-image {
     margin: 0 auto;
-    margin-top: -20%;
+    margin-top: -10%;
     width: 320px;
     height: 206px;
     object-fit: cover;
@@ -465,7 +478,6 @@ banner-content-primary {
         align-items: center;
         height: 400px;
         margin: 50px 0;
-        
     }
     
     .testimonial-image {
@@ -473,17 +485,17 @@ banner-content-primary {
         align-items: center;
         width: auto;
         height: auto;
-    }
+    } 
     
     .testimonial-with-img-quote-container{
         margin: 0;
-    }
+    } 
     
     .testimonial-with-img-author {
         margin: 0;
-    }
+    } 
     
     .testimonial {
         margin-bottom: 0;
-    }
+    } 
 }

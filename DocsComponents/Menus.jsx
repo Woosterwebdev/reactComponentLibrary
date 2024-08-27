@@ -6,7 +6,7 @@ export default function Menus() {
     return(
         <section>
             <h2>Menu</h2>
-            <div>
+            <div className="menu-example">
                 <Menu>
                     <Menu.Button>Sports</Menu.Button>
                     <Menu.Dropdown>
@@ -18,7 +18,7 @@ export default function Menus() {
              </div>
             <h3>Syntax</h3>
             <div className="syntax">
-                <p><code>{`import Menu from "../components/Menu/index"`}</code></p>
+                <p><code>{`import Menu from "./components/Menu/index"`}</code></p>
                 <p><code>{`<Menu>`}</code></p>
                 <p><code>{`<Menu.Button>Sports</Menu.Button>`}</code></p>
                 <p><code>{`<Menu.Dropdown> {sports.map(sport => (`}</code></p>
