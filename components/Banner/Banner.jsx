@@ -11,7 +11,7 @@ export default function Banner({ children , variant }) {
     return(
         <BannerContext.Provider value={{ variant }}>
             <div className={allClasses}>
-                <img className="banner-icon" src={`./public/${variant}.png`} />
+                <img className="banner-icon" src={`/public/${variant}.png`} alt={`${variant} incon.`}/>
                 <div>
                     {children}
                 </div>

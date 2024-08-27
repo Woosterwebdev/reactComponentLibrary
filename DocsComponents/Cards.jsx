@@ -7,17 +7,17 @@ export default function Cards() {
             <h2>Cards</h2>
             <div className="card-section">
                 <Card>
-                    <Card.Icon cardIcon="cloudUpload" />
+                    <Card.Icon cardIcon="cloudUpload" altText="Cloud Upload Icon." />
                     <Card.Title>Easy Deployment</Card.Title>
                     <Card.Content>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card.Content>
                 </Card>
                 <Card>
-                    <Card.Icon cardIcon="cloudUpload" />
+                    <Card.Icon cardIcon="cloudUpload" altText="Cloud Upload Icon." />
                     <Card.Title>Easy Deployment</Card.Title>
                     <Card.Content>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card.Content>
                 </Card>
                 <Card>
-                    <Card.Icon cardIcon="cloudUpload" />
+                    <Card.Icon cardIcon="cloudUpload" altText="Cloud Upload Icon." />
                     <Card.Title>Easy Deployment</Card.Title>
                     <Card.Content>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card.Content>
                 </Card>
@@ -26,7 +26,7 @@ export default function Cards() {
             <div className="syntax">
               <p><code>{`import Card from "../components/Card/index"`}</code></p>
               <p><code>{`<Card>`}</code></p>
-              <p><code>{`<Card.Icon><img className="card-icon" src="./public/cloudUpload.png" /></Card.Icon>`}</code></p>
+              <p><code>{`<Card.Icon cardIcon="cloudUpload" altText="Cloud Upload Icon." />`}</code></p>
               <p><code>{`<Card.Title>Easy Deployment</Card.Title>`}</code></p>
               <p><code>{`<Card.Content>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card.Content>`}</code></p>
               <p><code>{`</Card>`}</code></p>

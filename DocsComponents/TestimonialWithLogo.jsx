@@ -6,7 +6,7 @@ export default function TestimonialWithLogo() {
         <section>
             <h2>Testimonial with logo</h2>
             <div>
-                <Testimonial logo="logo">
+                <Testimonial logo="logo" altText="Company Logo.">
                     <Testimonial.Quote>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. 
                     </Testimonial.Quote>
@@ -16,7 +16,7 @@ export default function TestimonialWithLogo() {
             <h3>Syntax</h3>
             <div className="syntax">
                 <p><code>{`import Testimonial from "../components/Testimonial/index"`}</code></p>
-                <p><code>{`<Testimonial logo="logo">`}</code></p>
+                <p><code>{`<Testimonial logo="logo" altText="Company Logo.">`}</code></p>
                 <p><code>{`<Testimonial.Quote>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. 
                     </Testimonial.Quote>`}</code></p>
