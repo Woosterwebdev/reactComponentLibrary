@@ -1,5 +1,5 @@
 import React from "react"
-import Menu from "./components/Menu/index"
+import Menu from "../components/Menu/index"
 
 export default function Menus() {
     const sports = ["Tennis", "Pickleball", "Racquetball", "Squash"]
