@@ -1,7 +1,7 @@
 import React from "react"
 import Menu from "./components/Menu/index"
 
-export default function Menu() {
+export default function Menus() {
     const sports = ["Tennis", "Pickleball", "Racquetball", "Squash"]
     return(
         <section>
