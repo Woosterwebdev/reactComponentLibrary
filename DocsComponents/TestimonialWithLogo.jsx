@@ -5,7 +5,7 @@ export default function TestimonialWithLogo() {
     return(
         <section id="testimonial-logo">
             <h2>Testimonial with logo</h2>
-            <a className="back-to-top" href="header">Back to top</a>
+            <a className="back-to-top" href="#header">Back to top</a>
             <div>
                 <Testimonial logo="logo" altText="Company Logo.">
                     <Testimonial.Quote>

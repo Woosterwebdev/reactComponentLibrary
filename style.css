@@ -87,6 +87,10 @@ h3 {
     text-decoration: none;
 }
 
+.github:after {
+    color: #000;
+}
+
 .back-to-top {
     font-size: 0.85rem;
 }

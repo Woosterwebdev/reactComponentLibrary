@@ -5,7 +5,7 @@ export default function TestimonialWithImage() {
     return(
         <section id="testimonial">
             <h2>Testimonial with image</h2>
-            <a className="back-to-top" href="header">Back to top</a>
+            <a className="back-to-top" href="#header">Back to top</a>
             <div className="testimonial-with-img-container">
                 <TestimonialWithImg imgSrc="mayAndersons" altText="May Andersons.">
                     <TestimonialWithImg.Quote>

@@ -6,7 +6,7 @@ export default function Menus() {
     return(
         <section id="menus">
             <h2>Menu</h2>
-            <a className="back-to-top" href="header">Back to top</a>
+            <a className="back-to-top" href="#header">Back to top</a>
             <div className="menu-example">
                 <Menu>
                     <Menu.Button>Sports</Menu.Button>

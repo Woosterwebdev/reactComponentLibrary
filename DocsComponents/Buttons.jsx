@@ -5,7 +5,7 @@ export default function Buttons() {
     return(
         <section id="buttons">
             <h2>Buttons</h2>
-            <a className="back-to-top" href="header">Back to top</a>
+            <a className="back-to-top" href="#header">Back to top</a>
             <div>
                 <h3>Sizes</h3>
                     <div className="buttons-size">

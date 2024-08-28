@@ -5,7 +5,7 @@ export default function Cards() {
     return(
         <section id="cards">
             <h2>Cards</h2>
-            <a className="back-to-top" href="header">Back to top</a>
+            <a className="back-to-top" href="#header">Back to top</a>
             <div className="card-section">
                 <Card>
                     <Card.Icon cardIcon="cloudUpload" altText="Cloud Upload Icon." />
