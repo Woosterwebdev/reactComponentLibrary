@@ -77,8 +77,14 @@ h3 {
     max-height: 100%;
 }
 
+.git-button {
+    margin: 0 auto;
+}
+
 .guthub {
     text-align: center;
+    color: #000;
+    text-decoration: none;
 }
 
 .back-to-top {
