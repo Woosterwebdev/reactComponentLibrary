@@ -17,7 +17,7 @@ function App() {
   return (
     <>
     <Header />
-    <Button size="sm" className="git-button"><a className="github" href="https://github.com/Woosterwebdev/reactComponentLibrary">Click here for repository</a></Button>
+    <a className="github" href="https://github.com/Woosterwebdev/reactComponentLibrary">Click here for repository</a>
     <Badges />
     <Banners />
     <Buttons />
