@@ -77,6 +77,10 @@ h3 {
     max-height: 100%;
 }
 
+.guthub {
+    margin: 0 auto;
+}
+
 .back-to-top {
     font-size: 0.85rem;
 }
