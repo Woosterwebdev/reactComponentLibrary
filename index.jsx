@@ -18,7 +18,7 @@ function App() {
     <>
     <Header />
     <div className="git">
-      <a className="github" href="https://github.com/Woosterwebdev/reactComponentLibrary">Click here for repository</a>
+      <a className="github" href="https://github.com/Woosterwebdev/reactComponentLibrary">Click here for the repository</a>
     </div>
     <Badges />
     <Banners />
