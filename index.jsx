@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./DocsComponents/Header"
+import Button from "./components/Button/Button"
 import Badges from "./DocsComponents/Badges"
 import Banners from "./DocsComponents/Banners"
 import Buttons from "./DocsComponents/Buttons"

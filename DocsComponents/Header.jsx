@@ -1,6 +1,5 @@
 import React from "react"
 import Menu from "../components/Menu/index"
-import Button from "./components/Button/Button"
 
 export default function Header() {
     const sections = ["Badges", "Banners", "Buttons", "Cards", "Testimonial", "Menus" ]
