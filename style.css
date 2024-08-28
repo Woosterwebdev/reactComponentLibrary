@@ -87,7 +87,7 @@ h3 {
     text-decoration: none;
 }
 
-.github:after {
+.github:visited {
     color: #000;
 }
 
