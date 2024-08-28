@@ -3,7 +3,7 @@ import Badge from "../components/Badge/Badge"
 
 export default function Badges() {
   return(
-    <section>
+    <section id="badges">
       <h2>Badges</h2>
       <h3>Square</h3>
       <div className="badge-examples">

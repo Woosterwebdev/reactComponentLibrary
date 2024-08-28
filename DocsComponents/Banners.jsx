@@ -3,8 +3,9 @@ import Banner from "../components/Banner/index"
 
 export default function Banners() {
     return(
-        <section>
+        <section id="banners">
             <h2>Banners</h2>
+            <a className="back-to-top" href="header">Back to top</a>
             <div className="banner-examples">
                 <Banner variant="success">
                 <Banner.Title>Congratulations!</Banner.Title>

@@ -3,9 +3,9 @@ import Menu from "../components/Menu/index"
 import Testimonial from "../components/Testimonial"
 
 export default function Header() {
-    const sections = ["Badges", "Banners", "Buttons", "Cards", "Menus", "Testimonial with image", "Testimonial with logo"]
+    const sections = ["Badges", "Banners", "Buttons", "Cards", "Testimonial", "Menus" ]
     return(
-        <div className="header">
+        <div id="header" className="header">
             <img src="/react-icon.png" alt="React Logo." />
             <h1 className="title m-0">React Component Library</h1>
             <div className="jump-button">
@@ -13,7 +13,7 @@ export default function Header() {
                     <Menu.Button className="jump-button">Jump</Menu.Button>
                     <Menu.Dropdown>
                         {sections.map(section => (
-                            <Menu.Item key={section}>{<a href="#">{section}</a>}</Menu.Item>
+                            <Menu.Item key={section}>{<a href={`#${section.toLowerCase()}`}>{section}</a>}</Menu.Item>
                         ))}
                     </Menu.Dropdown>
                 </Menu>
