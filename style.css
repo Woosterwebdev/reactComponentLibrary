@@ -81,14 +81,15 @@ h3 {
     margin: 0 auto;
 }
 
-.guthub {
+.guthub a {
     text-align: center;
     color: #000;
     text-decoration: none;
 }
 
-.github:visited {
+.github a:visited {
     color: #000;
+    text-decoration: none;
 }
 
 .back-to-top {
