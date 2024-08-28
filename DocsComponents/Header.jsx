@@ -1,6 +1,6 @@
 import React from "react"
 import Menu from "../components/Menu/index"
-import Testimonial from "../components/Testimonial"
+import Button from "./components/Button/Button"
 
 export default function Header() {
     const sections = ["Badges", "Banners", "Buttons", "Cards", "Testimonial", "Menus" ]
@@ -8,6 +8,7 @@ export default function Header() {
         <div id="header" className="header">
             <img src="/react-icon.png" alt="React Logo." />
             <h1 className="title m-0">React Component Library</h1>
+            
             <div className="jump-button">
                 <Menu>
                     <Menu.Button className="jump-button">Jump</Menu.Button>
